@@ -1,0 +1,28 @@
+
+#footer {
+    background: var(--cardBackground);
+    padding: 30px;
+  }
+  
+  .footer-container {
+    width: 60%;
+    margin: auto;
+  
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+  }
+  
+  
+  .footer-left-info {
+    display: flex;
+    align-content: center;
+    align-items: center;
+  }
+  
+  .footer-left-info img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
