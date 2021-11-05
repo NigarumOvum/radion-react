@@ -22,12 +22,11 @@ export default function Radio() {
 const stations = await api.searchStations({
   language: 'english', 
   tag:stationFilter,
-  tagExact: true,
   countryCode: 'US',
   limit: 100,
   offset: 0, // 1 - is the second page
-  hidebroken: true
-})
+  orderBy: 'name',
+  ,})
 
 .then((data) => {
   return data;
