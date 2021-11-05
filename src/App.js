@@ -4,10 +4,6 @@ import Radio from "./components/Radio";
 import Footer from "./components/footer/footer";
 
 function App() {
-  
-  if (typeof window.ethereum.autoRefreshOnNetworkChange !== "undefined") {
-    window.ethereum.autoRefreshOnNetworkChange = false;
-  }
 
   return (
     <div className="App">
