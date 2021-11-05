@@ -25,7 +25,7 @@ const stations = await api.searchStations({
   countryCode: 'US',
   limit: 100,
   offset: 0, // 1 - is the second page
-  orderBy: 'name',
+  orderBy: 'name'
   ,})
 
 .then((data) => {
