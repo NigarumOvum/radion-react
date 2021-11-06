@@ -22,7 +22,7 @@ export default function Radio() {
 const stations = await api.searchStations({
   language: 'english', 
   tag:stationFilter,
-  countryCode: 'US',
+ // countryCode: 'US',
   limit: 100,
   offset: 0, // 1 - is the second page
   orderBy: 'name'
@@ -59,6 +59,8 @@ return stations;
     "New age",
     "Pop",
     "Psytrance",
+    "psytrance",
+    "psy",
     "Punk",
     "Rap",
     "Reggae",
