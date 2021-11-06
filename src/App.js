@@ -9,7 +9,7 @@ function App() {
     <div className="App">
      <img src={Logo} alt='Logo' />
       <h1> RadiOn By NeighborDev CR</h1>
-      <h2>Elige un genero, escoge una estacion y comienza a escuchar y disfrutar!👽</h2>
+      <h2>Elige un genero, sintoniza una estacion, escucha Y disfruta mientras estudias/trabajas!👽</h2>
       <Radio />
       <Footer />
     </div>
