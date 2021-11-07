@@ -20,7 +20,6 @@ export default function Radio() {
     
 // get next 100 stations
 const stations = await api.searchStations({
-  language: 'english', 
   tag:stationFilter,
  // countryCode: 'US',
   limit: 100,
