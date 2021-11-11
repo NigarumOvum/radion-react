@@ -1,0 +1,125 @@
+
+.radio {
+    width: 100%;
+  }
+  
+  .filters {
+    display: grid;
+    justify-content: center;
+    flex-direction: row;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 5px;
+    row-gap: 5px;
+    margin-bottom: 2em;
+    font-size: 1rem;
+  
+    span {
+      margin: 0 0.25em;
+      justify-content: center;
+      border: 1px solid #3e80fb;
+      border-radius: 30%;
+      padding: 0.25em 0.75em;
+      color: #ffffff;
+      text-shadow: #613efb 10px 10px 10px;
+      background-color: #00c8ff4b;
+  
+      &:hover {
+        cursor: pointer;
+        background: linear-gradient(to bottom right, #41005a, #3e80fb);
+      }
+    }
+  
+    .selected {
+      background: linear-gradient(to bottom right, #3e80fb, #41005a);
+      border: 1px solid #a03efb;
+    }
+  }
+  .stations {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    margin-bottom: 2em;
+    margin-left: 1em;
+    font-size: 1rem;
+  }
+  
+  .station {
+    font-size: 1rem;
+    border: 1px solid rgb(79, 51, 119);
+    margin: 0.25em;
+    border-radius: 10px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    &:hover {
+      border-color: #6bb7e3;
+    }
+  }
+  
+  .stationName {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .name {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .stationName img {
+    display: block;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 183, 255, 0.842);
+    margin: 0 0.25em;
+  }
+  
+  audio {
+    width: 100%;
+  }
+  
+  .rhap_container.player {
+    background-color: rgba(0, 162, 255, 0.479);
+    display: flex;
+    justify-items: center;
+    padding: 0.25em 0.75em;
+    border-radius: 10px;
+  }
+  
+  .rhap_stacked .rhap_controls-section {
+    margin-top: 0 !important;
+  }
+  
+  .rhap_controls-section .rhap_volume-controls {
+    justify-content: center;
+  }
+  
+  .rhap_controls-section .rhap_main-controls button[aria-label="Play"] svg path {
+    fill: rgba(255, 255, 255, 0.884) !important;
+  }
+  
+  .rhap_controls-section .rhap_main-controls button[aria-label="Pause"] svg path {
+    fill: #19d1ff9f !important;
+  }
+
+  @media only screen and (min-device-width: 350px) and (max-device-width: 500px) {
+    .container {
+      display: hidden;
+    }
+  }
+
+  @media only screen and (min-device-width: 500px) and (max-device-width: 8000px) {
+    .container {
+      display: hidden;
+    }
+  }

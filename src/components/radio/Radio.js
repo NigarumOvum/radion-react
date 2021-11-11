@@ -3,10 +3,11 @@ import { RadioBrowserApi } from "radio-browser-api";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 import defaultImage from "./radio.png";
+import "./Radio.scss"
 
 export default function Radio() {
   const [stations, setStations] = useState();
-  const [stationFilter, setStationFilter] = useState("all");
+  const [stationFilter, setStationFilter] = useState("initial");
 
   useEffect(() => {
     setupApi(stationFilter).then((data) => {
@@ -26,10 +27,11 @@ const stations = await api.searchStations({
   offset: 0, // 1 - is the second page
   orderBy: 'name'
   ,})
+//if (stationFilter === "^\w+$") {
 
-.then((data) => {
-  return data;
-});
+  .then((data) => {
+    return data;
+  });
 
 return stations;
   };
@@ -45,7 +47,6 @@ return stations;
     "Classical",
     "Country",
     "Death metal",
-    "Disco",
     "Electro",
     "Folk",
     "Funk",
@@ -69,7 +70,6 @@ return stations;
     "Rock",
     "Salsa",
     "Ska",
-    "Sludge",
     "Spanish",
     "Rhythm",
     "Techno",
@@ -88,6 +88,7 @@ return stations;
           <span
             className={stationFilter === filter ? "selected" : ""}
             onClick={() => setStationFilter(filter)}
+            onTouchStart={() => setStationFilter(filter)}
           >
             {filter}
           </span>

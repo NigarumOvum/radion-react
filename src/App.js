@@ -1,6 +1,6 @@
 import "./App.scss";
 import Logo from './components/media/images/logo.png';
-import Radio from "./components/Radio";
+import Radio from "./components/radio/Radio";
 import Footer from "./components/footer/footer";
 
 function App() {
