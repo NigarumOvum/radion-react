@@ -6,7 +6,7 @@ import defaultImage from "./radio.png";
 
 export default function Radio() {
   const [stations, setStations] = useState();
-  const [stationFilter, setStationFilter] = useState("");
+  const [stationFilter, setStationFilter] = useState("all");
 
   useEffect(() => {
     setupApi(stationFilter).then((data) => {
@@ -22,7 +22,7 @@ export default function Radio() {
 const stations = await api.searchStations({
   tag:stationFilter,
  // countryCode: 'US',
-  limit: 50,
+  limit: 25,
   offset: 0, // 1 - is the second page
   orderBy: 'name'
   ,})

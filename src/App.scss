@@ -87,7 +87,7 @@ h2 {
   grid-template-columns: 100px 100px 100px 100px;
   column-gap: 10px;
   row-gap: 15px;
-  overflow-y: right;
+  overflow-y: hidden;
   margin-bottom: 2em;
   font-size: 1rem;
 
@@ -109,6 +109,7 @@ h2 {
 
   .selected {
     background: linear-gradient(to bottom right, #3e80fb, #41005a);
+    border: 1px solid #a03efb;
   }
 }
 .stations {
@@ -119,7 +120,7 @@ h2 {
 
 .station {
   font-size: 1rem;
-  border: 1px solid rgb(76, 62, 95);
+  border: 1px solid rgb(79, 51, 119);
   margin: 0.25em;
   border-radius: 10px;
   padding: 1em;
@@ -139,7 +140,7 @@ h2 {
   margin-bottom: 1em;
   width: 100%;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .name {
@@ -152,7 +153,7 @@ h2 {
   width: 2.5em;
   height: 2.5em;
   border-radius: 50%;
-  border: 2px solid rgb(51, 147, 185);
+  border: 2px solid rgba(0, 183, 255, 0.842);
   margin: 0 0.25em;
 }
 
@@ -161,7 +162,7 @@ audio {
 }
 
 .rhap_container.player {
-  background-color: rgba(0, 0, 0, 0.479);
+  background-color: rgba(0, 162, 255, 0.479);
   display: flex;
   justify-items: center;
   padding: 0.25em 0.75em;
@@ -177,7 +178,7 @@ audio {
 }
 
 .rhap_controls-section .rhap_main-controls button[aria-label="Play"] svg path {
-  fill: rgba(235, 235, 235, 0.521) !important;
+  fill: rgba(255, 255, 255, 0.884) !important;
 }
 
 .rhap_controls-section .rhap_main-controls button[aria-label="Pause"] svg path {
