@@ -10,6 +10,7 @@ function Footer() {
                     Contribuciones
                 </Gradient>
             </div>
+            <a href={'https://buy.stripe.com/test_eVa8AyaSSffC9Ow288'}>
             <button
                 style={{
                     background: 'linear-gradient(#00DFD8, #007CF0)', color: 'white',
@@ -18,6 +19,7 @@ function Footer() {
                 }}>
                 Donar
             </button>
+            </a>
             <div className="footer__title">
                 <Gradient dir="left-to-right" from="#00DFD8" to="#007CF0">
                     Contactame
