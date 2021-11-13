@@ -14,7 +14,7 @@ function ToastInstructions() {
          style={{background: 'linear-gradient(#00DFD8, #007CF0)', color: 'white',
          border: "1px dashed purple",  padding: '10px', marginBottom: '15px', 
          opacity: '0.8',
-         transform: 'translateX(-180%)', borderRadius: "50%"}}
+         transform: 'translateX(-150%)', borderRadius: "50%"}}
          onClick={showToast}>Instrucciones
          </button>
         <ToastContainer />
