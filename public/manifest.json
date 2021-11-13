@@ -1,6 +1,12 @@
 {
-  "short_name": "RadiOn",
-  "name": "RadiOn",
+  "short_name": "Radion",
+  "name": "Radion",
+  "description": "Online Radio Station Streaming WebApp(PWA)",
+  "start_url": "/",
+  "scope": "/",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "display_override": ["window-control-overlay", "minimal-ui"],
   "display": "standalone",
   "icons": [
     {
@@ -40,7 +46,5 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "prefer_related_applications": false
 }

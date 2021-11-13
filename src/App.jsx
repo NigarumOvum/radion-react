@@ -1,16 +1,16 @@
 import "./App.scss";
 import Logo from './components/media/images/logo.png';
-import Radio from "./components/radio/Radio";
 import Footer from "./components/footer/footer";
+import GenderCollapsible from "./components/collapsible/GenderCollapsible";
+import ToastInstructions from "./components/toast/ToastIns";
 
 function App() {
 
   return (
     <div className="App">
      <img src={Logo} alt='Logo' />
-      <h2>Elige un genero, sintoniza una estacion, escucha Y disfruta!👽📻📡</h2>
-      <h4> Recuerda usar una estacion a la vez</h4>
-      <Radio />
+      <ToastInstructions/>
+      <GenderCollapsible/>
       <Footer />
     </div>
   );

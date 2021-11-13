@@ -11,16 +11,14 @@
     column-gap: 5px;
     row-gap: 5px;
     margin-bottom: 2em;
-    font-size: 1rem;
-  
+    font-size: 0.8rem;
+
     span {
       margin: 0 0.25em;
       justify-content: center;
       border: 1px solid #3e80fb;
       border-radius: 30%;
       padding: 0.25em 0.75em;
-      color: #ffffff;
-      text-shadow: #613efb 10px 10px 10px;
       background-color: #00c8ff4b;
   
       &:hover {
@@ -34,6 +32,38 @@
       border: 1px solid #a03efb;
     }
   }
+
+  @media only screen and (min-device-width: 550px) and (max-device-width: 1080px) {
+    .filters {
+      display: grid;
+      justify-content: center;
+      flex-direction: row;
+      grid-template-columns: 20% 20% 20% 20%;
+      column-gap: 5px;
+      row-gap: 5px;
+      margin-bottom: 2em;
+      font-size: 1.5rem;
+    }
+    span {
+      margin: 0 0.25em;
+      justify-content: center;
+      border: 1px solid #3e80fb;
+      border-radius: 30%;
+      padding: 0.25em 0.75em;
+      background-color: #00c8ff4b;
+  
+      &:hover {
+        cursor: pointer;
+        background: linear-gradient(to bottom right, #41005a, #3e80fb);
+      }
+    }
+  
+    .selected {
+      background: linear-gradient(to bottom right, #3e80fb, #41005a);
+      border: 1px solid #a03efb;
+    }
+  }
+
   .stations {
     width: 90%;
     justify-content: center;
@@ -110,16 +140,4 @@
   
   .rhap_controls-section .rhap_main-controls button[aria-label="Pause"] svg path {
     fill: #19d1ff9f !important;
-  }
-
-  @media only screen and (min-device-width: 350px) and (max-device-width: 500px) {
-    .container {
-      display: hidden;
-    }
-  }
-
-  @media only screen and (min-device-width: 500px) and (max-device-width: 8000px) {
-    .container {
-      display: hidden;
-    }
   }

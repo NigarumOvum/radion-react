@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { RadioBrowserApi } from "radio-browser-api";
 import AudioPlayer from "react-h5-audio-player";
+
 import "react-h5-audio-player/lib/styles.css";
 import defaultImage from "./radio.png";
 import "./Radio.scss"
@@ -23,7 +24,7 @@ export default function Radio() {
 const stations = await api.searchStations({
   tag:stationFilter,
  // countryCode: 'US',
-  limit: 25,
+  limit: 54,
   offset: 0, // 1 - is the second page
   orderBy: 'name'
   ,})
@@ -46,6 +47,7 @@ return stations;
     "Blues",
     "Classical",
     "Country",
+    "Dancehall",
     "Death metal",
     "Electro",
     "Folk",
@@ -80,7 +82,6 @@ return stations;
   const setDefaultSrc = (event) => {
     event.target.src = defaultImage;
   };
-
   return (
     <div className="radio">
       <div className="filters">
@@ -125,3 +126,4 @@ return stations;
     </div>
   );
 }
+

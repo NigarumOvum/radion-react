@@ -2,6 +2,34 @@
 #footer {
     background: var(--cardBackground);
     padding: 30px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .contibutions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .footer__title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--textColor);
+    font-family: var(--font);
+    margin-bottom: 5px;
+  }
+
+  .footer-social {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    display: flex;
+    margin-left: 25%;
   }
   
   .footer-container {
@@ -14,7 +42,8 @@
     align-items: center;
   }
   
-  
+
+
   .footer-left-info {
     display: flex;
     align-content: center;
@@ -22,7 +51,7 @@
   }
   
   .footer-left-info img {
-    width: 40px;
-    margin-right: 10px;
+    width: 20%;
+    margin-right: 0px;
   }
   
