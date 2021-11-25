@@ -13,7 +13,7 @@ function Footer() {
             <a href={'https://buy.stripe.com/test_eVa8AyaSSffC9Ow288'}>
             <button
                 style={{
-                    background: 'linear-gradient(#00DFD8, #007CF0)', color: 'white',
+                    background: 'linear-grcadient(#00DFD8, #007CF0)', color: 'white',
                     border: "1px dashed purple", padding: '10px', marginBottom: '15px',
                     opacity: '0.8', borderRadius: "50%"
                 }}>
