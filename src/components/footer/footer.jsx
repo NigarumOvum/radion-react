@@ -49,7 +49,7 @@ function Footer() {
                     <img src={PLogo} alt='Logo' />
                     <p>
                         <Gradient dir="left-to-right" from="#00DFD8" to="#007CF0">
-                            Designed & Developed by <a href="https://www.neighbordevcr.com">NeighborDev CR @Copyright</a>{new Date().getFullYear()}
+                            Designed & Developed by <a href="https://neighbordevcr.com">NeighborDev CR @Copyright</a>{new Date().getFullYear()}
                         </Gradient>
                     </p>
                 </div>
