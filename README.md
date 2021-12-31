@@ -23,7 +23,7 @@ src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350
 I Built this PWA using the Model View Controller (MVC) architecture to render the UI components logic. For the beauty I'm working with CSS, SASS languajes and some Bootstrap/ReactStrap.
 Used JavaScript Fetch to Request the Radio Stations Information from the radio-browser-api API component API to render then in the UI using react-h5-audio-player npm component. For all the State Management of this application I'm using Redux.
 
-Application is also Dockerized for deployment in a container.
+Application is also Dockerized for development and production deployment.
 
 I used jQuery for many functionalities(Navbar, Waves, etc.). Used JavaScript Fetch for the connection to Google SpreadShet DB with the sheet.best API and be able to push data from a HTML formulary.
 
