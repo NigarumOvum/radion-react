@@ -14,11 +14,11 @@ src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350
 <img align="left" alt="Redux" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png" />
 
 <img align="left" alt="Docker" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" />
-
+.
 
 </hr>
 
-#### Description
+## Description
 
 I Built this PWA using the Model View Controller (MVC) architecture to render the UI components logic. For the beauty I'm working with CSS, SASS languajes and some Bootstrap/ReactStrap.
 Used JavaScript Fetch to Request the Radio Stations Information from the radio-browser-api API component API to render then in the UI using react-h5-audio-player npm component. For all the State Management of this application I'm using Redux.
@@ -26,6 +26,8 @@ Used JavaScript Fetch to Request the Radio Stations Information from the radio-b
 Application is also Dockerized for development and production deployment.
 
 I used jQuery for many functionalities(Navbar, Waves, etc.). Used JavaScript Fetch for the connection to Google SpreadShet DB with the sheet.best API and be able to push data from a HTML formulary.
+
+## Front-end deployed in: Vercel
 
 # About Me:
 
