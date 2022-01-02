@@ -1,24 +1,15 @@
 # RadiOn Online Radio Player - (https://radion-react.vercel.app/)
 
-<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
+## Built with:
+![html5](https://img.icons8.com/color/48/000000/html-5--v1.png)
+![css3](https://img.icons8.com/color/48/000000/css3.png)
+![js](https://img.icons8.com/color/48/000000/javascript--v2.png)
+![sass](https://img.icons8.com/color/48/000000/sass.png)
+![React](https://img.icons8.com/plasticine/48/000000/react.png)
+![redux](https://img.icons8.com/color/48/000000/redux.png)
+![docker](https://img.icons8.com/color/48/000000/docker.png)
 
-<img align="left" alt="CSS3" width="26px" 
-src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-
-<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
-
-<img align="left" alt="SASS" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" />
-
-<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
-
-<img align="left" alt="Redux" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png" />
-
-<img align="left" alt="Docker" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" />
-.
-
-</hr>
-
-## Description
+## Description:
 
 I Built this PWA using the Model View Controller (MVC) architecture to render the UI components logic. For the beauty I'm working with CSS, SASS languajes and some Bootstrap/ReactStrap.
 Used JavaScript Fetch to Request the Radio Stations Information from the radio-browser-api API component API to render then in the UI using react-h5-audio-player npm component. For all the State Management of this application I'm using Redux.
