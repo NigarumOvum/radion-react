@@ -1,4 +1,4 @@
-# React PWA - RadiOn - Online Radio Player(https://radion-react.vercel.app/)
+# RadiOn Online Radio Player - React PWA (https://radion-react.vercel.app/)
 
 <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
 
