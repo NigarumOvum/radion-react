@@ -10,7 +10,7 @@ function Footer() {
                     Contribuciones
                 </Gradient>
             </div>
-            <a href={'https://buy.stripe.com/test_eVa8AyaSSffC9Ow288'}>
+            <a href={'https://www.buymeacoffee.com/nigarumovum'}>
             <button
                 style={{
                     background: 'linear-grcadient(#00DFD8, #007CF0)', color: 'white',
